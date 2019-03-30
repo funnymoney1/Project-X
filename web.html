@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-2.1.3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Website</title>
+    <script src="web.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <!--<nav class="nv">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Hey</a></li>
+        <li><a href="#">hi</a></li>
+        <li><a href="#">oops</a></li>
+      </ul>
+    </nav>-->
+    <div class="sidenav" id="mysidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&laquo;</a>
+      <a href="#">Services</a>
+      <a href="#">Client</a>
+      <a href="#">About</a>
+      <div class="cir" draggable="true">
+        <div class="cirf">
+          <a href="#" class="fir">Lecture's</a>
+          <a href="#" id="sec">Pdf's</a>
+          <a href="#" id="th">NGO's</a>
+        </div>
+      </div>
+    </div>
+    <div id="main0">
+      <header class="headbox">
+        <span onclick="openNav()" id="sp">&#187;</span>
+      </header>
+      <div class="firstd">
+        <p>You Can Find Some Notes and pdf's here which is related to your course</p>
+        <span class="fspn">Please select your stream - </span>
+        <div class="fld container">
+          <div class="flf col-xs-4"><a href="#" class="fdlink">Bsc</a></div>
+          <div class="fls col-xs-4"><a href="middle.php" class="fdlink">Bca</a></div>
+          <div class="flt col-xs-4"><a href="pdfs.html" class="fdlink">Bba</a></div>
+        </div>
+        <div class="alertd">
+          <a href="#">cs</a>
+          <a href="#">Mt</a>
+        </div>
+      </div>
+      <div class="secondd">
+        Contact Us
+      </div>
+    </div>
+    <!--<embed src="Ch13.pdf" width="800px" height="2100px" />-->
+  </body>
+</html>
+<!--<div class="sidenav" id="mysidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&laquo;</a>
+  <a href="#">Services</a>
+  <a href="#">Client</a>
+  <a href="#">About</a>
+  <div class="cir" draggable="true">
+    <a href="#" class="fir">Hey</a>
+    <a href="#" id="sec">hello</a>
+    <a href="#" id="th">Hi</a>
+  </div>
+</div>
+<div id="main0">
+<header class="headbox">
+  <span onclick="openNav()" id="sp">&#187;</span>
+  tyyyug
+</header>
+
+
+console.log($(window).width());
+     $('.headbox').height($(window).height());
+      console.log( "document loaded ..\n Hello...." );
+    //  $( "h1:first" ).hide();
+      $(window).scroll(function(){
+        var scroll_v = $(this).scrollTop();
+        $(".logo").css({
+          'transform' : 'translate(0px, '+ scroll_v/2 +'%)'
+        });
+        $(".logo2").css({
+          'transform' : 'translate(0px, -'+ scroll_v/48 +'%)'
+        });
+      });
+      $("#sp").click(function(){
+        $("#sp").fadeOut(1000);
+      })
+      $(".closebtn").click(function(){$("#sp").fadeIn(1500);})
+      $(".cir").click(function() {
+        $(window).scroll(function(e) {
+          var sc = $(this).scrollTop();
+          //console.log(sc);
+          //console.log(sc);
+          //$(".draggable").css({'transform' : 'translate('+xc+'px,'+yc+'px)'});
+          $(".cir").css({'transform' : 'rotate('+sc+'deg)'});
+        })
+      })
+      $(".fifthdiv").scroll(function(e){
+        //console.log('hi containerdiv');
+        //console.log($(this).scrollTop());
+        var va = $(this).scrollTop();
+        $(".fouf").css({"position": "relative","bottom": -va + "px"});
+      })
+
+-->
