@@ -2,7 +2,8 @@ html{
   min-height: 100%;
 }
 body{
-  /*flowering_grasses-wallpaper-1366x768.png*/
+  //background: pink;
+  //background-image: url("flowering_grasses-wallpaper-1366x768.png");
   min-height: 100%;
 }
 .maindiv{
@@ -55,6 +56,8 @@ margin:0px 25px;
 padding-top:0px;
 font:400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 background-color:transparent;
+//background: rgba(255, 255, 255, 0.25);
+//border-radius: 1px;
 height:24px;
  outline:none;
 text-align:left;

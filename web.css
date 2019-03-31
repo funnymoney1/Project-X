@@ -42,11 +42,11 @@ nav ul li a:hover{
 {
   height: 550px;
   position: relative;
-  background-image: url('css/stanislav-kondratiev-1158575-unsplash.jpg');
-  background-size: cover;
+  background-image: url('css/michael-mroczek-440382-unsplash.jpg');
   background-position: center;
-  background-attachment: fixed;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
   //z-index: -1;
   /*(1343,657) , (1360,657) , auto 600px*/
@@ -129,20 +129,19 @@ nav ul li a:hover{
   color: black;
   top: 40px;
 }
-
 .firstd{
   height: 657px;
   position: relative;
-  background-color: steelblue;
+  //background-color: steelblue;
   box-shadow: 0px 1px 30px 10px black;
   border-radius: 2px;
   font-family: sans-serif;
 }
 .firstd p{
   position: relative;
-  top: 30px;
   margin: 0px;
   padding: 0px;
+  padding-top: 30px;
   font-weight: bold;
   line-height: 1em;
   text-align: center;
@@ -150,12 +149,53 @@ nav ul li a:hover{
 
 .fspn{
   position: relative;
-  top: 50px;
+  line-height: 3;
   font-weight: 100;
   font-size: 20px;
   font-family: sans-serif;
   color: black;
   left: 20px;
+}
+.sld{
+  position: relative;
+  //margin: 5% 0 5% 0;
+  height: 400px;
+  line-height: 3;
+}
+.slf,.sls{
+  //background: pink;
+  position: relative;
+  top: 75px;
+  height: 250px;
+}
+.sls{
+  //background: lightgreen;
+}
+.slff,.slfd{
+  position: relative;
+  width: 200px;
+  height: 150px;
+  top: 10%;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  border-radius: 3px;
+  background-image: url("css/schoolpencils.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  //box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.3);
+  transition: box-shadow .5s;
+}
+.slfd{
+  background-image: url("css/simson-petrol-110900-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slff:hover,.slfd:hover{
+  box-shadow: 0px 0px 1px 2px rgba(64,64,64,0.4);
 }
 .fld{
   position: relative;
@@ -242,10 +282,23 @@ nav ul li a:hover{
   height: 50px;
   margin: auto;
 }
+.slf,.sls{
+  //min-width: 60%;
+  min-width: 100%;
+  //margin: 0 20% 0 20%;
+  top: 0px;
+}
+.sls{
+  //background-color: lightslategrey;
+}
 }
 
 .lnav{
-  position: relative;
-  background: transparent;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+  //position: relative;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+  //-webkit-filter: blur(0.9px);
+  background: rgba(255,255,255,0.45);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
