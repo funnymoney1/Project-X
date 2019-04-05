@@ -1,0 +1,3513 @@
+a,a:active,a:focus,a:hover,p.required,span.required {
+    color: #655611
+}
+
+.btn,a:active,a:focus,a:hover,strong a:hover {
+    text-decoration: none
+}
+
+.article-home .bottom .index .chapter-1 p:before,.article-home .splash header h1:after,.article-home .splash header h1:before,.field:after,.large-image:after,blockquote:after,blockquote:before,dl:after,q:after,q:before {
+    content: ""
+}
+
+article,aside,details,dl:after,figcaption,figure,footer,header,hgroup,img,menu,nav,section {
+    display: block
+}
+
+dd,dt {
+    float: left
+}
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+td,th {
+    padding: 10px 20px
+}
+
+body {
+    line-height: 1em;
+    color: #6e6e6f;
+    font: 400 13px/34px Georgia,serif
+}
+
+.modal .close,strong,th {
+    font-weight: 700
+}
+
+#transition-overlay .badge h2,.column .lead-image h2,.drop-cap,blockquote {
+    font-family: Futura,sans-serif;
+    text-transform: uppercase
+}
+
+.caption,.video-trigger p,th {
+    line-height: 18px
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:after,blockquote:before,q:after,q:before {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+:focus {
+    outline: 0
+}
+
+a {
+    text-decoration: underline
+}
+
+img {
+    max-width: 100%
+}
+
+em {
+    font-style: italic
+}
+
+h1 {
+    margin: 14px 0 26px
+}
+
+h2 {
+    margin-bottom: 18px
+}
+
+h3 {
+    margin: 0 0 4px
+}
+
+h4 {
+    margin-bottom: 10px
+}
+
+p {
+    color: #6e6e6f;
+    margin: 0 0 18px
+}
+
+ol,ul {
+    margin: 0 0 10px 20px;
+    padding-bottom: 10px
+}
+
+li {
+    list-style-position: outside;
+    list-style-type: square;
+    margin: 0 0 7px
+}
+
+li ol,li ul {
+    margin-top: 10px
+}
+
+dl {
+    clear: both;
+    margin: 20px 0
+}
+
+* html dl {
+    height: 1%;
+    overflow: visible
+}
+
+dl:after {
+    height: 0!important;
+    overflow: hidden;
+    position: static!important;
+    clear: both
+}
+
+dt {
+    clear: left;
+    margin: 0 4% 10px 0;
+    text-align: right;
+    text-transform: uppercase;
+    width: 10%
+}
+
+dt:after {
+    content: ":";
+    display: inline-blick
+}
+
+dd {
+    margin: 0 0 10px;
+    width: 86%
+}
+
+tr:nth-child(even) {
+    background: #83807b
+}
+
+th {
+    border-bottom: 1px solid #6d6e71;
+    font-size: 14px;
+    vertical-align: middle
+}
+
+td {
+    vertical-align: middle
+}
+
+.btn,.btn-2 {
+    cursor: pointer;
+    padding: 17px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    margin: 0
+}
+
+blockquote {
+    color: #37312c;
+    font-size: 14px;
+    letter-spacing: .15em
+}
+
+blockquote a {
+    color: #37312c
+}
+
+::selection {
+    background: #6e6e6f;
+    color: #fff
+}
+
+::-moz-selection {
+    background: #6e6e6f;
+    color: #fff
+}
+
+p.required,span.required {
+    float: none!important;
+    font-size: 11px;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+
+.article-guided-adventure .movie-title blockquote .small,.caption,.note {
+    font-size: smaller
+}
+
+.caption {
+    clear: both;
+    margin: 0
+}
+
+.btn {
+    background: #febe10;
+    border: 0 solid #febe10;
+    border-radius: 0;
+    color: #6e6e6f!important;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .2s linear
+}
+
+.btn:hover {
+    background-color: #ffe032
+}
+
+.btn-2 {
+    background: #fff;
+    border: 0 solid #ededed;
+    border-radius: 0;
+    color: #655611!important;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all .2s linear
+}
+
+.btn-3,.field.submit button,.field.submit input {
+    color: #fff!important;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center
+}
+
+.btn-3,.field label {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+.background.video-trigger,.btn-3,.field.submit button,.field.submit input {
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear
+}
+
+.btn-2:hover {
+    background-color: #fff
+}
+
+.btn-3 {
+    background: #6d6e71;
+    border: 0 solid transparent;
+    border-radius: 0;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    padding: 4px 20px
+}
+
+.btn-3:hover {
+    background-color: #8f9093
+}
+
+.flush-right {
+    clear: right;
+    float: right;
+    margin-right: -19px
+}
+
+.flush-left {
+    clear: left;
+    float: left;
+    margin-left: -19px
+}
+
+.overflow-right {
+    clear: right;
+    float: right;
+    margin: 0 -336px 20px 20px
+}
+
+.box-full {
+    border-radius: 8px;
+    clear: both;
+    float: right;
+    margin: 0 0 22px -22px;
+    max-width: 680px
+}
+
+.box-right {
+    clear: right;
+    float: right;
+    margin: 0 0 30px 30px;
+    max-width: 32%;
+    text-align: right
+}
+
+.box-right img {
+    float: right;
+    margin: 0 auto 10px;
+    max-width: 100%
+}
+
+.box-small-right,.small-right {
+    clear: right;
+    float: right;
+    margin: 0 0 30px 30px;
+    max-width: 20%;
+    text-align: right
+}
+
+.box-small-right .box-small-right img,.small-right .box-small-right img {
+    margin: 0 auto 10px
+}
+
+.box-left {
+    clear: right;
+    float: left;
+    margin: 0 30px 30px 0;
+    max-width: 32%
+}
+
+.box-left img {
+    margin: 0 auto 10px
+}
+
+.box-small-left,.small-left {
+    clear: left;
+    float: left;
+    margin: 0 30px 30px 0;
+    max-width: 20%
+}
+
+.box-small-left img,.small-left img {
+    margin: 0 auto 10px
+}
+
+.box-bottom {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    clear: right;
+    margin: 20px 0 0;
+    padding: 10px
+}
+
+.box-bottom img {
+    margin: 0 auto
+}
+
+.field {
+    clear: both;
+    margin: 0 0 16px;
+    padding: 0;
+    position: relative;
+    width: 100%
+}
+
+* html .field {
+    height: 1%;
+    overflow: visible
+}
+
+.field:after {
+    display: block;
+    height: 0!important;
+    overflow: hidden;
+    position: static!important;
+    clear: both
+}
+
+.field.error input,.field.error textarea {
+    border-bottom: 4px solid #fe7200
+}
+
+.field label {
+    box-sizing: border-box;
+    float: left;
+    font-size: 13px;
+    padding: 6px 9px;
+    width: 32%
+}
+
+.field span {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 5%;
+    padding: 6px 10px;
+    width: 32%
+}
+
+.field span.required {
+    display: inline;
+    padding: 0
+}
+
+.text input,textarea {
+    float: left;
+    padding: 6px 10px;
+    width: 68%;
+    border: none
+}
+
+.text input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #6e6e6f;
+    font: 400 15px/23px Stag Helvetica,Arial,sans-serif;
+    height: 39px
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #6e6e6f;
+    font: 400 15px/24px Stag Helvetica,Arial,sans-serif;
+    height: 94px;
+    resize: vertical
+}
+
+.text input:-webkit-autofill,input.text:-webkit-autofill {
+    background: red
+}
+
+select {
+    font: 400 15px/20px Stag Helvetica,Arial,sans-serif;
+    height: 36px;
+    padding: 4px 6px 4px 10px;
+    width: 68%
+}
+
+.radio input {
+    display: inline-block;
+    float: none
+}
+
+.radio input[type=text] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    height: 26px;
+    line-height: 17px;
+    margin: 3px;
+    padding: 4px 5px;
+    vertical-align: baseline;
+    width: 30%
+}
+
+.checkbox input,.checkbox label,.radio label {
+    display: inline-block;
+    float: none;
+    vertical-align: baseline
+}
+
+.radio label {
+    padding: 6px 4px;
+    width: auto
+}
+
+.checkbox {
+    background: 0 0;
+    border: none
+}
+
+.checkbox label {
+    max-width: 90%;
+    padding: 6px 10px;
+    width: auto
+}
+
+.checkbox input {
+    line-height: 20px;
+    margin: 0 5px
+}
+
+.field.submit {
+    clear: right;
+    float: right;
+    margin: 30px 0 0;
+    width: auto
+}
+
+.column.left,.drop-cap,.share li {
+    float: left
+}
+
+.field.submit button,.field.submit input {
+    border: 0 solid #febe10;
+    border-radius: 0;
+    margin: 0;
+    padding: 17px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    background: #877833!important;
+    display: block;
+    width: 100%
+}
+
+.field.submit button:hover,.field.submit input:hover {
+    background: #a99a55!important
+}
+
+.field.submit .reset {
+    background: 0 0;
+    box-shadow: none;
+    color: #655611;
+    font-weight: 600;
+    line-height: 31px;
+    padding: 0 10px 0 0
+}
+
+fieldset {
+    border: 1px dotted #6d6e71;
+    padding: 10px
+}
+
+legend {
+    font: 700 22px/30px Stag Helvetica,Arial,sans-serif;
+    padding: 5px
+}
+
+.success {
+    background: #d5f4c8;
+    border-bottom: 1px solid #65de2f;
+    border-top: 1px solid #65de2f;
+    margin-top: 30px;
+    padding: 20px 20px 7px;
+    text-align: center
+}
+
+.success h2 {
+    color: #6e6e6f;
+    text-align: center
+}
+
+@-webkit-keyframes bounce {
+    0%,10%,100%,33% {
+        -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        -moz-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+
+    30% {
+        -webkit-transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        -moz-transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        -webkit-transform: translate3d(0,-5px,0);
+        -moz-transform: translate3d(0,-5px,0);
+        transform: translate3d(0,-5px,0)
+    }
+}
+
+@-moz-keyframes bounce {
+    0%,10%,100%,33% {
+        -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        -moz-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+
+    30% {
+        -webkit-transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        -moz-transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        -webkit-transform: translate3d(0,-5px,0);
+        -moz-transform: translate3d(0,-5px,0);
+        transform: translate3d(0,-5px,0)
+    }
+}
+
+@-ms-keyframes bounce {
+    0%,10%,100%,33% {
+        -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        -moz-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+
+    30% {
+        -webkit-transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        -moz-transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        -webkit-transform: translate3d(0,-5px,0);
+        -moz-transform: translate3d(0,-5px,0);
+        transform: translate3d(0,-5px,0)
+    }
+}
+
+@keyframes bounce {
+    0%,10%,100%,33% {
+        -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        -moz-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        transition-timing-function: cubic-bezier(.215,.61,.355,1);
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+
+    30% {
+        -webkit-transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        -moz-transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        transition-timing-function: cubic-bezier(.755,.05,.855,.06);
+        -webkit-transform: translate3d(0,-5px,0);
+        -moz-transform: translate3d(0,-5px,0);
+        transform: translate3d(0,-5px,0)
+    }
+}
+
+body {
+    background-color: #000;
+    overflow-x: hidden
+}
+
+.bumper {
+    background: #fff;
+    box-shadow: inset 0 0 0 29px #fff,inset 0 0 0 30px #655611;
+    padding: 175px 70px 157px;
+    position: relative;
+    text-align: center
+}
+
+.hard-break {
+    display: block
+}
+
+.large-image {
+    clip: rect(0,auto,auto,0)
+}
+
+* html .large-image {
+    height: 1%;
+    overflow: visible
+}
+
+.large-image:after {
+    display: block;
+    height: 0!important;
+    overflow: hidden;
+    position: static!important;
+    clear: both
+}
+
+.drop-cap {
+    background: #3e6177;
+    color: #fff;
+    font-size: 40px;
+    line-height: 59px;
+    margin: 0 15px 5px 0;
+    padding: 0 14px
+}
+
+.column {
+    background: #fff;
+    margin-bottom: 300px;
+    max-width: 513px;
+    position: relative;
+    width: 32%
+}
+
+.background,.column .lead-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc)
+}
+
+.column.right {
+    float: right
+}
+
+.column .lead-image {
+    height: 140px;
+    margin: 0;
+    padding: 60px 20px;
+    position: relative
+}
+
+.column .lead-image img {
+    margin: 11% auto 0;
+    max-width: 80px;
+    width: 31%
+}
+
+.column .lead-image h2 {
+    color: #fff;
+    font-size: 10px;
+    left: 19%;
+    letter-spacing: .3em;
+    margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    width: 62%
+}
+
+.column .lead-image h2 .chapter-no {
+    float: right;
+    letter-spacing: .6em
+}
+
+.column img {
+    margin: 20px 0
+}
+
+.column .top-image {
+    margin-top: 0
+}
+
+.column .ascending {
+    bottom: 100%;
+    margin: 0 0 50px;
+    position: absolute;
+    width: 80%
+}
+
+.background,.background.video-trigger {
+    position: fixed;
+    transform: translateZ(0)
+}
+
+.column .flush {
+    margin-top: -110px;
+    width: 100%
+}
+
+.column .content {
+    margin-top: 62px;
+    padding: 0 41px 145px
+}
+
+.column p {
+    color: #83807b;
+    letter-spacing: .1em
+}
+
+.background {
+    left: 0;
+    overflow: hidden;
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    right: 0;
+    top: 0
+}
+
+.background.video-trigger {
+    opacity: 0;
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transition: all .2s linear
+}
+
+.background.video-trigger.show-trigger {
+    opacity: 1
+}
+
+.background.static {
+    position: relative
+}
+
+.background.sticky.top {
+    top: 0;
+    position: absolute
+}
+
+.background.sticky.stay {
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0)
+}
+
+.background.sticky.bottom {
+    bottom: 0;
+    position: absolute;
+    top: auto
+}
+
+.background img {
+    width: 100%
+}
+
+.background video {
+    display: block;
+    width: 100%
+}
+
+.video-trigger {
+    display: block;
+    position: relative;
+    text-decoration: none
+}
+
+.video-trigger p {
+    margin-bottom: 8px;
+    text-align: center
+}
+
+.video-trigger img {
+    margin: 0 0 24px
+}
+
+.video-trigger .trigger {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/icon-play.png) center center no-repeat;
+    background-size: 83px;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    border-radius: 1000px;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 83px;
+    line-height: 83px;
+    opacity: .9;
+    position: absolute;
+    right: 50%;
+    text-align: center;
+    text-decoration: none;
+    text-indent: -9999px;
+    top: 50%;
+    width: 83px;
+    transform: translate3d(35px,-20px,0);
+    -ms-transform: translate3d(35px,-20px,0);
+    -moz-transform: translate3d(35px,-20px,0);
+    -webkit-transform: translate3d(35px,-20px,0);
+    -o-transform: translate3d(35px,-20px,0);
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.video-trigger .trigger.right {
+    left: auto;
+    right: 31%;
+    transform: translate3d(-35px,-35px,0);
+    -ms-transform: translate3d(-35px,-35px,0);
+    -moz-transform: translate3d(-35px,-35px,0);
+    -webkit-transform: translate3d(-35px,-35px,0);
+    -o-transform: translate3d(-35px,-35px,0)
+}
+
+.video-trigger .trigger.left {
+    left: 31%;
+    transform: translate3d(0,-35px,0);
+    -ms-transform: translate3d(0,-35px,0);
+    -moz-transform: translate3d(0,-35px,0);
+    -webkit-transform: translate3d(0,-35px,0);
+    -o-transform: translate3d(0,-35px,0);
+    right: auto
+}
+
+.video-trigger:hover .trigger {
+    background-color: rgba(0,0,0,.6);
+    opacity: 1
+}
+
+.js-content {
+    left: 50%;
+    position: absolute;
+    top: 50%
+}
+
+.continue {
+    border: 1px solid #fff;
+    border-width: 1px 0;
+    color: #fff;
+    display: block;
+    font: 10px/18px Georgia,serif;
+    letter-spacing: .2em;
+    padding: 29px 72px 29px 126px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-transition: transform .2s linear;
+    -webkit-transition: transform .2s linear;
+    -o-transition: transform .2s linear;
+    transition: transform .2s linear;
+    transform: translate3d(-47px,0,0);
+    -ms-transform: translate3d(-47px,0,0);
+    -moz-transform: translate3d(-47px,0,0);
+    -webkit-transform: translate3d(-47px,0,0);
+    -o-transform: translate3d(-47px,0,0);
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d
+}
+
+.continue:after,.continue:before {
+    content: "x";
+    padding: 30px 0;
+    position: absolute;
+    top: -1px;
+    display: block;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    text-indent: -9999px
+}
+
+.continue:hover {
+    color: #fe0101;
+    border: 1px solid #fe0101;
+    border-width: 1px 0
+}
+
+.continue:hover:after,.continue:hover:before {
+    background-position: bottom center
+}
+
+.continue:active,.continue:focus {
+    color: #fe0101;
+    border: 1px solid #fe0101;
+    border-width: 1px 0
+}
+
+.continue:before {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/img-chapter-arrow-end.png) top center no-repeat;
+    background-size: 100%;
+    left: -2px;
+    width: 51px
+}
+
+.continue:after {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/img-chapter-arrow-start.png) top center no-repeat;
+    background-size: 100%;
+    right: -68px;
+    width: 69px
+}
+
+.share {
+    margin: 20px 20% 0 15%
+}
+
+.share li {
+    display: table;
+    text-align: center;
+    width: 33.333%
+}
+
+.share li.facebook a:hover .icon {
+    border-color: #5a86e5;
+    color: #5a86e5
+}
+
+.share li.g-plus a:hover .icon {
+    border-color: #dd4b39;
+    color: #dd4b39
+}
+
+.share li.twitter a:hover .icon {
+    border-color: #00aced;
+    color: #00aced
+}
+
+.share a {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+    margin: 0 5px;
+    text-decoration: none
+}
+
+.share .icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#main.rotateSlideIn {
+    -webkit-animation: rotateSlideIn 1s both ease;
+    animation: rotateSlideIn 1s both ease;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    z-index: 998
+}
+
+#transition-overlay {
+    background: #000;
+    clip: rect(0,auto,auto,0);
+    height: 100%;
+    left: 100%;
+    overflow: hidden;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    top: 0;
+    width: 100%;
+    z-index: 9900
+}
+
+#transition-overlay .background-image {
+    left: 0;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    top: 0;
+    width: 100%
+}
+
+#transition-overlay .badge {
+    left: 0;
+    margin-top: -36px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%
+}
+
+#transition-overlay .badge img {
+    height: 73px!important;
+    margin: 0 auto;
+    width: 98px!important
+}
+
+#transition-overlay .badge h2 {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: .15em;
+    margin: 0 auto -60px;
+    max-width: 300px;
+    text-align: left;
+    width: 85%
+}
+
+.modal iframe,.pace .pace-progress {
+    width: 100%;
+    height: 100%
+}
+
+#transition-overlay .badge h2 .chapter-no {
+    float: right
+}
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    background: rgba(255,255,255,.4);
+    bottom: 0;
+    height: 5px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    user-select: none;
+    z-index: 9995
+}
+
+.pace .pace-progress {
+    background: #fff;
+    position: absolute;
+    right: 100%
+}
+
+.modal {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/icon-loading.gif) center center no-repeat #000;
+    background-size: 50px;
+    bottom: 0;
+    display: none;
+    left: 0;
+    opacity: .75;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    transform: scale(.75,.75);
+    -ms-transform: scale(.75,.75);
+    -moz-transform: scale(.75,.75);
+    -webkit-transform: scale(.75,.75);
+    -o-transform: scale(.75,.75)
+}
+
+.modal .video-holder {
+    height: 100%
+}
+
+.modal .close {
+    background: rgba(255,255,255,.9);
+    border-radius: 1000px;
+    color: #000;
+    font-size: 16px;
+    left: 15px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 15px;
+    width: 30px
+}
+
+.modal.top-right .close {
+    left: auto;
+    right: 15px
+}
+
+.signup-wrapper {
+    height: 100%!important;
+    width: 100%!important
+}
+
+.signup-wrapper .left {
+    background-color: #fff;
+    display: block;
+    float: left;
+    height: 100%;
+    width: 50%
+}
+
+.signup-wrapper .left .frame {
+    border: none;
+    box-shadow: inset 0 0 0 20px #fff,inset 0 0 0 30px #655611;
+    color: #655611;
+    height: 100%;
+    margin: 0;
+    top: 0
+}
+
+.signup-wrapper .left .logo {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/mq-logo-gold.png) center center no-repeat;
+    display: block;
+    height: 67px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 228px;
+    margin: -33px 0 0 -114px
+}
+
+.signup-wrapper .right {
+    background-color: #e7e7e6;
+    display: block;
+    float: left;
+    height: 100%;
+    width: 50%
+}
+
+.signup-wrapper .right p {
+    line-height: 2.25;
+    max-width: 330px;
+    text-align: center;
+    width: 90%;
+    margin: 8% auto;
+    padding: 0 5%
+}
+
+.signup-wrapper .fakecheck,.signup-wrapper .right form input {
+    color: #3f3f3f;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    margin: 0 0 8%
+}
+
+.signup-wrapper .right form {
+    display: block;
+    width: auto;
+    padding: 0 5%
+}
+
+.signup-wrapper .right form input {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/subscribe-icons.png) right 8px no-repeat;
+    border-bottom: 4px solid #c8c8c8;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-top: 0 none;
+    display: block;
+    outline: 0;
+    width: 100%;
+    padding: 10px 0
+}
+
+.signup-wrapper .right form input#zip {
+    background-position: right -90px
+}
+
+.signup-wrapper .fakecheck {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/fakecheck.png) no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 19px;
+    line-height: 19px;
+    padding: 0 0 0 30px
+}
+
+#hamburger a,.signup-wrapper #submit {
+    font-family: gotham-boldgotham-bold
+}
+
+.signup-wrapper .fakecheck.active {
+    background-position: 0 -100px
+}
+
+.signup-wrapper #submit {
+    background-color: #655611;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    outline: 0;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 25px 0
+}
+
+#main {
+    left: 0;
+    position: relative;
+    width: 100%
+}
+
+#header {
+    position: fixed
+}
+
+#hamburger {
+    background-color: #0f1010;
+    left: -100%;
+    overflow: auto;
+    max-width: 430px;
+    width: 100%
+}
+
+#hamburger .title-wrapper {
+    margin-top: 0;
+    position: static
+}
+
+#hamburger .title-wrapper .close {
+    background-position: center center;
+    float: right;
+    margin-right: 15px;
+    width: 22px
+}
+
+#hamburger .story-nav {
+    border-bottom: 3px solid #292b2b;
+    padding-bottom: 16px
+}
+
+#hamburger .story-nav a {
+    margin-left: 30px;
+    text-decoration: none
+}
+
+#hamburger .story-nav a .title {
+    color: #fff;
+    float: none;
+    padding: 7px 30px 0 50px;
+    width: auto
+}
+
+#hamburger .share-wrapper {
+    bottom: 0
+}
+
+#hamburger .share-wrapper .share {
+    background: #292b2b;
+    line-height: 20px;
+    margin: 0
+}
+
+#hamburger .share-wrapper .social-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+#hamburger .share-wrapper .social-wrapper.open {
+    top: -60px
+}
+
+#hamburger .issue {
+    display: block;
+    text-decoration: none
+}
+
+#hamburger .back-home {
+    bottom: 25%;
+    display: block;
+    margin: 16px 0 0 30px;
+    position: static
+}
+
+#hamburger .back-home .chapter {
+    border: 3px solid;
+    color: #7b5e00;
+    display: block;
+    border-radius: 25px;
+    float: left;
+    font-size: 17px;
+    line-height: 32px;
+    padding: 0;
+    text-align: center;
+    width: 32px
+}
+
+#hamburger .back-home .title {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 7px 0 0 20px;
+    text-transform: uppercase;
+    width: 185px
+}
+
+#hamburger .subscribe {
+    background: url(https://de86a9dcc6e7064ad85c-6bb04a5a768636877ed52b1955b4e802.ssl.cf2.rackcdn.com/subscribe.png) 13px center no-repeat;
+    bottom: 15%;
+    color: #454545;
+    cursor: pointer;
+    font-family: FuturaStdBold;
+    font-size: 10px;
+    height: 52px;
+    position: absolute!important;
+    text-transform: uppercase;
+    width: 220px;
+    margin-left: -15px;
+    padding: 8px 0 0 50px;
+    left: 30px;
+    transform: none
+}
+
+#hamburger .subscribe:active,#hamburger .subscribe:focus,#hamburger .subscribe:hover {
+    border: 4px solid #705a21!important;
+    border-right-width: 5px!important
+}
+
+#hamburger .subscribe .chapter {
+    border: 3px solid;
+    color: #7b5e00;
+    display: block;
+    border-radius: 25px;
+    float: left;
+    font-family: "font awesome";
+    font-size: 17px;
+    line-height: 32px;
+    padding: 0;
+    text-align: center;
+    width: 32px
+}
+
+#hamburger .subscribe .title {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    width: 185px;
+    position: relative;
+    margin-left: 15px;
+    top: 0
+}
+
+#hamburger-button {
+    background: rgba(0,0,0,.3);
+    color: #fff;
+    font-family: "Font Awesome";
+    font-size: 28px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 44px
+}
+
+.article-home #hamburger-button {
+    background: rgba(255,255,255,.6);
+    color: #000
+}
+
+.article-home #hamburger-button:hover {
+    background: #fff
+}
+
+.article-home .splash {
+    padding: 26px;
+    position: relative;
+    z-index: 1
+}
+
+.article-home .splash .inner {
+    box-shadow: inset 0 0 0 4px #655611;
+    min-height: 300px;
+    position: relative
+}
+
+.article-home .splash header {
+    color: #fff;
+    left: 50%;
+    max-width: 618px;
+    position: absolute;
+    top: 50%;
+    width: 70%
+}
+
+.article-home .splash header h1 {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-thoreau.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    height: 250px;
+    margin: 0;
+    position: relative;
+    text-indent: -9999px;
+    width: 100%
+}
+
+.article-home .splash header h1:before {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-thoreau-the.png) center center no-repeat;
+    display: block;
+    height: 31px;
+    left: 15px;
+    position: absolute;
+    top: 30px;
+    width: 53px
+}
+
+.article-home .splash header h1:after {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-thoreau-trail.png) center center no-repeat;
+    bottom: 18px;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: -16px;
+    width: 89px
+}
+
+.article-home .splash .issue-badge {
+    margin: 0 auto;
+    width: 219px
+}
+
+.article-home .splash .maine-thing-logo {
+    left: 50%;
+    margin-left: -61px;
+    position: absolute;
+    top: 56px;
+    width: 122px
+}
+
+.article-home .splash .maine-shape {
+    background: 0 0!important;
+    position: absolute;
+    right: 56px;
+    top: 46px;
+    width: 29px
+}
+
+.article-home .splash .arrow {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/icon-arrow-down.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    bottom: 86px;
+    display: block;
+    height: 10px;
+    left: 50%;
+    margin-left: -9px;
+    position: absolute;
+    width: 18px;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    -webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom
+}
+
+.article-home .bottom {
+    position: relative;
+    z-index: 1
+}
+
+.article-home .bottom .intro {
+    box-shadow: none
+}
+
+.article-home .bottom .intro p {
+    margin: 0 auto;
+    max-width: 700px
+}
+
+.article-home .bottom .row {
+    display: table;
+    width: 100%
+}
+
+.article-home .bottom .index {
+    background: #000
+}
+
+.article-home .bottom .index .chapter {
+    display: table-cell;
+    overflow: hidden;
+    padding: 17px;
+    position: relative;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.article-home .bottom .index .chapter:hover .background {
+    opacity: .6;
+    transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1)
+}
+
+.article-home .bottom .index .background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    position: absolute!important;
+    right: 0;
+    top: 0;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -o-transform: scale(1,1)
+}
+
+.article-home .bottom .index .inner {
+    background: 0 0;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.6);
+    height: 624px;
+    position: relative;
+    -moz-transition: background .1s linear;
+    -webkit-transition: background .1s linear;
+    -o-transition: background .1s linear;
+    transition: background .1s linear
+}
+
+.article-home .bottom .index .content {
+    font-size: 11px;
+    left: 10%;
+    margin-left: 0!important;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 80%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.article-home .bottom .index .content p {
+    color: #fff;
+    letter-spacing: .15em;
+    line-height: 18px;
+    margin-bottom: 0
+}
+
+.article-home .bottom .index .chapter-number {
+    bottom: 40px;
+    height: 27px;
+    left: 40px;
+    position: absolute
+}
+
+.article-home .bottom .index .chapter-0 {
+    background-image: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/bg-index-0.jpg);
+    background-size: cover;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc)
+}
+
+.article-home .bottom .index .chapter-0 .inner {
+    box-shadow: none;
+    background: 0 0!important
+}
+
+.article-home .bottom .index .chapter-0 .maine-thing-logo {
+    margin: 0 auto 24px;
+    max-width: 147px;
+    width: 100%
+}
+
+.article-home .bottom .index .chapter-0 .issue-badge {
+    margin: 0 auto;
+    max-width: 210px;
+    width: 100%
+}
+
+.article-home .bottom .index .chapter-1 .background {
+    background-image: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/bg-index-1.jpg)
+}
+
+.article-home .bottom .index .chapter-1 p {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-untouched.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    height: 145px;
+    position: relative;
+    text-indent: -9999px;
+    width: 100%
+}
+
+.article-home .bottom .index .chapter-1 p:before {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-untouched-view.png) center center no-repeat;
+    display: block;
+    height: 38px;
+    left: 50%;
+    margin-left: -85px;
+    position: absolute;
+    top: 0;
+    width: 170px
+}
+
+.article-home .bottom .index .chapter-1 p:after,.article-untouched-by-time .splash header h1:after {
+    height: 24px;
+    left: 50%;
+    margin-left: -261px;
+    width: 523px;
+    display: block;
+    content: ""
+}
+
+.article-home .bottom .index .chapter-1 p:after {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-untouched-time.png) center center no-repeat;
+    bottom: 0;
+    position: absolute
+}
+
+.article-home .bottom .index .chapter-2 .background {
+    background-image: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/bg-index-2.jpg)
+}
+
+.article-home .bottom .index .chapter-2 p {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-penobscot.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    height: 140px;
+    position: relative;
+    text-indent: -9999px;
+    width: 100%
+}
+
+.article-home .bottom .index .chapter-2 p:before {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-penobscot-the.png) center center no-repeat;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    top: -13px;
+    width: 51px
+}
+
+.article-home .bottom .index .chapter-2 p:after {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-penobscot-then.png) center center no-repeat;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 11px;
+    left: 50%;
+    margin-left: -57px;
+    position: absolute;
+    width: 115px
+}
+
+.article-home .bottom .index .chapter-3 p,.article-home .bottom .index .chapter-4 p,.article-home .bottom .index .chapter-5 p {
+    width: 100%;
+    position: relative;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    text-indent: -9999px
+}
+
+.article-home .bottom .index .chapter-3 .background {
+    background-image: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/bg-index-3.jpg)
+}
+
+.article-home .bottom .index .chapter-3 p {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-exploring-nature.png) center center no-repeat;
+    background-size: contain;
+    height: 190px
+}
+
+.article-home .bottom .index .chapter-4 .background {
+    background-image: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/bg-index-4.jpg)
+}
+
+.article-home .bottom .index .chapter-4 p {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-stewardship.png) center center no-repeat;
+    background-size: contain;
+    height: 123px
+}
+
+.article-home .bottom .index .chapter-5 .background {
+    background-image: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/bg-index-5.jpg)
+}
+
+.article-home .bottom .index .chapter-5 p {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-guided-adventure.png) center center no-repeat;
+    background-size: contain;
+    height: 110px
+}
+
+.article-untouched-by-time #hamburger-button {
+    background: rgba(0,0,0,.3);
+    color: #fff
+}
+
+.article-untouched-by-time #hamburger-button:hover {
+    background: rgba(255,255,255,.3)
+}
+
+.article-untouched-by-time .splash {
+    clip: rect(0,auto,auto,0);
+    padding: 26px;
+    position: relative;
+    z-index: 1
+}
+
+.article-untouched-by-time .splash .inner {
+    min-height: 300px
+}
+
+.article-untouched-by-time .splash header {
+    color: #fff;
+    left: 50%;
+    max-width: 507px;
+    position: absolute;
+    top: 50%;
+    width: 70%
+}
+
+.article-untouched-by-time .splash header h1 {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-untouched.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    height: 175px;
+    position: relative;
+    text-indent: -9999px;
+    width: 100%
+}
+
+.article-untouched-by-time .splash header h1:before {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-untouched-view.png) center center no-repeat;
+    content: "";
+    display: block;
+    height: 38px;
+    left: 50%;
+    margin-left: -85px;
+    position: absolute;
+    top: 0;
+    width: 170px
+}
+
+.article-untouched-by-time .splash header h1:after {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-untouched-time.png) center center no-repeat;
+    bottom: 0;
+    position: absolute
+}
+
+.article-untouched-by-time .splash .splotches {
+    left: 23%;
+    max-width: 792px;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    top: 24%;
+    width: 50%
+}
+
+.article-untouched-by-time .splash .maine-shape {
+    background: 0 0!important;
+    position: absolute;
+    right: 56px;
+    top: 46px;
+    width: 29px
+}
+
+.article-untouched-by-time .splash .arrow {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/icon-arrow-down.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    bottom: 86px;
+    display: block;
+    height: 10px;
+    left: 50%;
+    margin-left: -9px;
+    position: absolute;
+    width: 18px;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    -webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom
+}
+
+.article-untouched-by-time .holder,.article-untouched-by-time .image-cols .row {
+    position: relative
+}
+
+.article-untouched-by-time .image-cols .big {
+    width: 60%
+}
+
+.article-untouched-by-time .image-cols .big.left {
+    float: left
+}
+
+.article-untouched-by-time .image-cols .big.right {
+    float: right
+}
+
+* html .article-untouched-by-time .image-cols .row {
+    height: 1%;
+    overflow: visible
+}
+
+.article-untouched-by-time .image-cols .row:after {
+    content: "";
+    display: block;
+    height: 0!important;
+    overflow: hidden;
+    position: static!important;
+    clear: both
+}
+
+.article-untouched-by-time .image-cols .row .big {
+    display: none;
+    left: 0
+}
+
+.article-untouched-by-time .image-cols .row .big.active {
+    display: block
+}
+
+.article-untouched-by-time .image-cols .row .big.right {
+    left: auto;
+    right: 0
+}
+
+.article-untouched-by-time .image-cols .row.stay .big {
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    top: 0
+}
+
+.article-untouched-by-time .image-cols .row.bottom .big {
+    bottom: 0;
+    position: absolute
+}
+
+.article-untouched-by-time .image-cols .column {
+    margin-bottom: 0;
+    max-width: none;
+    width: 40%
+}
+
+.article-untouched-by-time .image-cols .image-cell {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    overflow: hidden
+}
+
+.article-untouched-by-time .image-cols .image-cell video {
+    width: 100%
+}
+
+.article-penobscot-perspective #hamburger-button {
+    background: rgba(0,0,0,.3);
+    color: #fff
+}
+
+.article-penobscot-perspective #hamburger-button:hover {
+    background: rgba(255,255,255,.3)
+}
+
+.article-penobscot-perspective .splash {
+    clip: rect(0,auto,auto,0);
+    padding: 26px;
+    position: relative;
+    z-index: 1
+}
+
+.article-penobscot-perspective .splash .inner {
+    min-height: 300px
+}
+
+.article-penobscot-perspective .splash header {
+    color: #fff;
+    left: 50%;
+    max-width: 618px;
+    position: absolute;
+    top: 50%;
+    width: 70%
+}
+
+.article-penobscot-perspective .splash header h1 {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-penobscot.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    height: 202px;
+    position: relative;
+    text-indent: -9999px;
+    width: 100%
+}
+
+.article-penobscot-perspective .splash header h1:before {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-penobscot-the.png) center center no-repeat;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    top: -13px;
+    width: 51px
+}
+
+.article-penobscot-perspective .splash header h1:after {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-penobscot-then.png) center center no-repeat;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 11px;
+    left: 50%;
+    margin-left: -57px;
+    position: absolute;
+    width: 115px
+}
+
+.article-exploring-nature .splash .arrow,.article-penobscot-perspective .splash .arrow {
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    bottom: 86px;
+    margin-left: -9px;
+    -o-animation: bounce 2s infinite;
+    -webkit-transform-origin: center bottom;
+    display: block
+}
+
+.article-penobscot-perspective .splash .maine-shape {
+    background: 0 0!important;
+    position: absolute;
+    right: 56px;
+    top: 46px;
+    width: 29px
+}
+
+.article-exploring-nature .splash .arrow,.article-guided-adventure .splash .arrow,.article-penobscot-perspective .splash .arrow,.article-roots-of-stewardship .splash .arrow {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/icon-arrow-down.png) center center no-repeat;
+    left: 50%;
+    -webkit-animation: bounce 2s infinite
+}
+
+.article-penobscot-perspective .splash .arrow {
+    background-size: contain;
+    height: 10px;
+    position: absolute;
+    width: 18px;
+    -moz-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom
+}
+
+.article-penobscot-perspective .holder {
+    position: relative
+}
+
+.article-penobscot-perspective .image-grid {
+    background: 0 0;
+    left: 0;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    top: 0;
+    width: 100%
+}
+
+.article-penobscot-perspective .image-grid.static {
+    position: static
+}
+
+.article-penobscot-perspective .image-grid .image-cell {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    float: left;
+    opacity: 1;
+    width: 33.33333%;
+    -moz-transition: opacity .2s linear;
+    -webkit-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear
+}
+
+.article-exploring-nature #hamburger-button {
+    background: rgba(0,0,0,.3);
+    color: #fff
+}
+
+.article-exploring-nature #hamburger-button:hover {
+    background: rgba(255,255,255,.3)
+}
+
+.article-exploring-nature .splash {
+    clip: rect(0,auto,auto,0);
+    padding: 26px;
+    position: relative;
+    z-index: 1
+}
+
+.article-exploring-nature .splash .inner {
+    min-height: 300px
+}
+
+.article-exploring-nature .splash header {
+    color: #fff;
+    left: 50%;
+    max-width: 644px;
+    position: absolute;
+    top: 50%;
+    width: 70%
+}
+
+.article-exploring-nature .splash header h1 {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-exploring-nature.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    height: 319px;
+    position: relative;
+    text-indent: -9999px;
+    width: 100%
+}
+
+.article-exploring-nature .splash .maine-shape {
+    background: 0 0!important;
+    position: absolute;
+    right: 56px;
+    top: 46px;
+    width: 29px
+}
+
+.article-exploring-nature .splash .arrow {
+    background-size: contain;
+    height: 10px;
+    position: absolute;
+    width: 18px;
+    -moz-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom
+}
+
+.article-guided-adventure .splash .arrow,.article-roots-of-stewardship .splash .arrow {
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    margin-left: -9px;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite
+}
+
+.article-exploring-nature .holder {
+    position: relative
+}
+
+.article-exploring-nature .image-couples .stage {
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.article-exploring-nature .image-couples .stage.top {
+    position: relative
+}
+
+.article-exploring-nature .image-couples .stage.stay {
+    left: 0;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    top: 0
+}
+
+.article-exploring-nature .image-couples .stage.bottom {
+    bottom: 0;
+    left: 0;
+    position: absolute
+}
+
+.article-exploring-nature .image-couples .col {
+    position: absolute;
+    width: 50%
+}
+
+.article-exploring-nature .image-couples .col.left {
+    left: 0;
+    top: 0
+}
+
+.article-exploring-nature .image-couples .col.right {
+    bottom: 0;
+    right: 0
+}
+
+.article-exploring-nature .image-couples .image-cell {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    overflow: hidden
+}
+
+.article-roots-of-stewardship #hamburger-button {
+    background: rgba(0,0,0,.3);
+    color: #fff
+}
+
+.article-roots-of-stewardship #hamburger-button:hover {
+    background: rgba(255,255,255,.3)
+}
+
+.article-roots-of-stewardship .splash {
+    clip: rect(0,auto,auto,0);
+    padding: 26px;
+    position: relative;
+    z-index: 1
+}
+
+.article-roots-of-stewardship .splash .inner {
+    min-height: 300px
+}
+
+.article-roots-of-stewardship .splash header {
+    color: #fff;
+    left: 50%;
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    width: 70%
+}
+
+.article-roots-of-stewardship .splash header h1 {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-stewardship.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    height: 123px;
+    position: relative;
+    text-indent: -9999px;
+    width: 100%
+}
+
+.article-roots-of-stewardship .splash .maine-shape {
+    background: 0 0!important;
+    position: absolute;
+    right: 56px;
+    top: 46px;
+    width: 29px
+}
+
+.article-roots-of-stewardship .splash .arrow {
+    background-size: contain;
+    bottom: 86px;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 18px;
+    animation: bounce 2s infinite;
+    -webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom
+}
+
+.article-roots-of-stewardship .holder,.article-roots-of-stewardship .image-cols .row {
+    position: relative
+}
+
+.article-roots-of-stewardship .image-cols .big {
+    width: 60%
+}
+
+.article-roots-of-stewardship .image-cols .big.left {
+    float: left
+}
+
+.article-guided-adventure .double-exposure video,.article-roots-of-stewardship .image-cols .big.right {
+    float: right
+}
+
+* html .article-roots-of-stewardship .image-cols .row {
+    height: 1%;
+    overflow: visible
+}
+
+.article-roots-of-stewardship .image-cols .row:after {
+    content: "";
+    display: block;
+    height: 0!important;
+    overflow: hidden;
+    position: static!important;
+    clear: both
+}
+
+.article-roots-of-stewardship .image-cols .row .big {
+    display: none;
+    left: 0
+}
+
+.article-roots-of-stewardship .image-cols .row .big.active {
+    display: block
+}
+
+.article-roots-of-stewardship .image-cols .row .big.right {
+    left: auto;
+    right: 0
+}
+
+.article-roots-of-stewardship .image-cols .row.stay .big {
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    top: 0
+}
+
+.article-roots-of-stewardship .image-cols .row.bottom .big {
+    bottom: 0;
+    position: absolute
+}
+
+.article-roots-of-stewardship .image-cols .column {
+    margin-bottom: 0;
+    max-width: none;
+    width: 40%
+}
+
+.article-roots-of-stewardship .image-cols .image-cell {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    overflow: hidden
+}
+
+.article-roots-of-stewardship .image-cols .image-cell video {
+    width: 100%
+}
+
+.article-guided-adventure #hamburger-button {
+    background: rgba(0,0,0,.3);
+    color: #fff
+}
+
+.article-guided-adventure #hamburger-button:hover {
+    background: rgba(255,255,255,.3)
+}
+
+.article-guided-adventure .splash {
+    clip: rect(0,auto,auto,0);
+    padding: 26px;
+    position: relative;
+    z-index: 1
+}
+
+.article-guided-adventure .splash .inner {
+    min-height: 300px
+}
+
+.article-guided-adventure .splash header {
+    color: #fff;
+    left: 0;
+    height: 100%;
+    margin-top: 0!important;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    top: 0;
+    width: 100%
+}
+
+.article-guided-adventure .splash header h1 {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/hdr-guided-adventure.png) center center no-repeat;
+    background-size: contain;
+    -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+    height: 161px;
+    max-width: 611px;
+    left: 50%;
+    position: absolute;
+    text-indent: -9999px;
+    top: 50%;
+    width: 100%
+}
+
+.article-guided-adventure .splash .maine-shape {
+    background: 0 0!important;
+    position: absolute;
+    right: 56px;
+    top: 46px;
+    width: 29px
+}
+
+.article-guided-adventure .splash .arrow {
+    background-size: contain;
+    bottom: 86px;
+    display: block;
+    height: 10px;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    width: 18px;
+    animation: bounce 2s infinite;
+    -webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom
+}
+
+.article-guided-adventure .split-splash {
+    z-index: 2!important
+}
+
+.article-guided-adventure .split-splash .background {
+    width: 50%
+}
+
+.article-guided-adventure .split-splash .background.right {
+    bottom: 0;
+    left: auto;
+    right: 0;
+    top: auto
+}
+
+.article-guided-adventure .double-exposure {
+    background: #fff;
+    clip: auto;
+    z-index: 1!important
+}
+
+.article-guided-adventure .double-exposure.focus {
+    z-index: 3!important
+}
+
+.article-guided-adventure .double-exposure .background.sticky.top {
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0)
+}
+
+.article-guided-adventure .double-exposure .column {
+    background: 0 0;
+    margin-left: 9%;
+    min-width: 420px;
+    width: 26%
+}
+
+.article-guided-adventure .quote {
+    left: 9%;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    text-align: center;
+    top: 40%;
+    width: 25%;
+    -moz-transition: opacity .2s linear;
+    -webkit-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear
+}
+
+.article-guided-adventure .movie-title .content {
+    left: 50%;
+    position: fixed;
+    transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    top: 50%;
+    -moz-transition: opacity .2s linear;
+    -webkit-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear
+}
+
+.article-guided-adventure .movie-title blockquote {
+    color: #fff;
+    text-align: center
+}
+
+.article-guided-adventure .movie-title .credits {
+    background: #fff;
+    margin: 0 auto 200px;
+    max-width: 916px;
+    padding: 70px 0;
+    position: relative
+}
+
+* html .article-guided-adventure .movie-title .credits {
+    height: 1%;
+    overflow: visible
+}
+
+.article-guided-adventure .movie-title .credits:after {
+    content: "";
+    display: block;
+    height: 0!important;
+    overflow: hidden;
+    position: static!important;
+    clear: both
+}
+
+.article-guided-adventure .movie-title .credits li {
+    line-height: 18px;
+    list-style: disc;
+    margin-bottom: 2px
+}
+
+.article-guided-adventure .movie-title .credits a {
+    color: #83807b;
+    font-size: 15px;
+    letter-spacing: .1em;
+    text-decoration: none
+}
+
+.article-guided-adventure .movie-title .credits h3,.article-guided-adventure .movie-title .credits h4,.article-guided-adventure .resources .slide .tooltip-inner {
+    font-family: Futura,sans-serif;
+    letter-spacing: .15em;
+    text-transform: uppercase
+}
+
+.article-guided-adventure .movie-title .credits h3 {
+    color: #6d6e71;
+    font-size: 12px;
+    margin-bottom: 45px;
+    padding: 0 40px;
+    text-align: center
+}
+
+.article-guided-adventure .movie-title .credits h4 {
+    color: #6d6e71;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.article-guided-adventure .movie-title .col1 {
+    float: left;
+    padding: 30px 0 0 100px;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.article-guided-adventure .movie-title .col2 {
+    float: right;
+    padding: 30px 100px 0 30px;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.article-guided-adventure .resources {
+    height: 2400px;
+    overflow: hidden
+}
+
+.article-guided-adventure .resources .background {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.article-guided-adventure .resources .background img {
+    width: 100%
+}
+
+.article-guided-adventure .resources .foreground,.article-guided-adventure .resources .midground {
+    position: absolute;
+    width: 100%
+}
+
+.article-guided-adventure .resources .slide {
+    display: block;
+    position: absolute
+}
+
+.article-guided-adventure .resources .slide.hat {
+    height: 492px;
+    left: 10%;
+    top: 281px;
+    width: 39%
+}
+
+.article-guided-adventure .resources .slide.hat .tooltip {
+    bottom: 35%;
+    left: -5%;
+    width: 40%
+}
+
+.article-guided-adventure .resources .slide.drum {
+    height: 643px;
+    left: 59%;
+    top: 295px;
+    width: 29%
+}
+
+.article-guided-adventure .resources .slide.drum .tooltip {
+    bottom: 25%;
+    right: -15%;
+    width: 70%
+}
+
+.article-guided-adventure .resources .slide.tent {
+    height: 466px;
+    left: 7%;
+    top: 877px;
+    width: 43%
+}
+
+.article-guided-adventure .resources .slide.tent .tooltip {
+    bottom: 15%;
+    left: -5%;
+    width: 40%
+}
+
+.article-guided-adventure .resources .slide.canoe {
+    height: 664px;
+    left: 57%;
+    top: 1045px;
+    width: 27%
+}
+
+.article-guided-adventure .resources .slide.canoe .tooltip {
+    bottom: 35%;
+    right: -5%;
+    width: 70%
+}
+
+.article-guided-adventure .resources .slide.boots {
+    height: 593px;
+    left: 10%;
+    top: 1429px;
+    width: 30%
+}
+
+.article-guided-adventure .resources .slide.boots .tooltip {
+    bottom: -30%;
+    right: -5%;
+    width: 60%
+}
+
+.article-guided-adventure .resources .slide.moose {
+    height: 599px;
+    left: 56%;
+    top: 1842px;
+    width: 28%
+}
+
+.article-guided-adventure .resources .slide.moose .tooltip {
+    bottom: -25%;
+    right: -5%;
+    width: 50%
+}
+
+.article-guided-adventure .resources .slide.fishing {
+    height: 422px;
+    left: 11%;
+    top: 2138px;
+    width: 39%
+}
+
+.article-guided-adventure .resources .slide.fishing .tooltip {
+    bottom: -85%;
+    left: -5%;
+    width: 40%
+}
+
+.article-guided-adventure .resources .slide.knot {
+    height: 400px;
+    left: 58%;
+    top: 2582px;
+    width: 28%
+}
+
+.article-guided-adventure .resources .slide.knot .tooltip {
+    bottom: -100%;
+    right: -5%;
+    width: 50%
+}
+
+.article-guided-adventure .resources .slide.inn {
+    height: 422px;
+    left: 11%;
+    top: 2688px;
+    width: 39%
+}
+
+.article-guided-adventure .resources .slide.inn .tooltip {
+    bottom: -85%;
+    left: -5%;
+    width: 40%
+}
+
+.article-guided-adventure .resources .slide.lodge {
+    height: 472px;
+    left: 15%;
+    top: 3238px;
+    width: 29%
+}
+
+.article-guided-adventure .resources .slide.lodge .tooltip {
+    bottom: -165%;
+    left: -5%;
+    width: 40%
+}
+
+.article-guided-adventure .resources .slide .slide-inner {
+    background: url() center center no-repeat #fff;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%
+}
+
+.article-guided-adventure .resources .slide .tooltip {
+    position: absolute
+}
+
+.article-guided-adventure .resources .slide .tooltip-inner {
+    background: #fff;
+    border: 9px solid #fff;
+    box-shadow: inset 0 0 0 1px #000;
+    color: #37312c;
+    font-size: 9px;
+    line-height: 18px;
+    padding: 26px 30px;
+    position: relative;
+    text-align: center
+}
+
+.article-guided-adventure .send-off-wrapper:after {
+    background: url(http://c721b9799e6541aac131-6bb04a5a768636877ed52b1955b4e802.r54.cf2.rackcdn.com/img-ending.gif) bottom center repeat-x;
+    bottom: 0;
+    content: "";
+    height: 100px!important;
+    left: 0;
+    position: absolute!important;
+    width: 100%
+}
+
+.article-guided-adventure .send-off {
+    color: #fff;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 67%
+}
+
+.article-guided-adventure .send-off a {
+    color: #fff;
+    text-decoration: none
+}
+
+.article-guided-adventure .send-off .icon {
+    font-size: 18px
+}
+
+.article-guided-adventure .send-off .left {
+    float: left;
+    max-width: 147px;
+    padding-top: 9px;
+    text-align: center;
+    width: 19%
+}
+
+.article-guided-adventure .send-off .left h5 {
+    letter-spacing: .1em;
+    margin: 0 auto 12px;
+    text-transform: lowercase
+}
+
+.article-guided-adventure .send-off .left a,.article-guided-adventure .send-off .share .text,.article-guided-adventure .send-off .subscribe .text {
+    font-family: Futura,sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase
+}
+
+.article-guided-adventure .send-off .left ul {
+    margin: 0
+}
+
+.article-guided-adventure .send-off .left li {
+    display: block;
+    margin: 0 0 -9px
+}
+
+.article-guided-adventure .send-off .left a {
+    display: block
+}
+
+.article-guided-adventure .send-off .left a:hover {
+    color: #e4853d
+}
+
+.article-guided-adventure .send-off .logo {
+    margin: 0 auto 22px
+}
+
+.article-guided-adventure .send-off .badge {
+    margin: 0 auto 52px;
+    width: 214px
+}
+
+.article-guided-adventure .send-off .right {
+    display: table;
+    float: right;
+    width: 62%
+}
+
+.article-guided-adventure .send-off .share {
+    display: table-cell;
+    margin: 0;
+    padding: 0 6% 0 0;
+    width: 59%
+}
+
+.article-guided-adventure .send-off .share li {
+    display: table;
+    margin-bottom: 30px;
+    width: 100%
+}
+
+.article-guided-adventure .send-off .share li:last-child {
+    margin-bottom: 0
+}
+
+.article-guided-adventure .send-off .share li.facebook a:hover .icon,.article-guided-adventure .send-off .share li.facebook a:hover .text {
+    border-color: #5a86e5;
+    color: #5a86e5
+}
+
+.article-guided-adventure .send-off .share li.g-plus a:hover .icon,.article-guided-adventure .send-off .share li.g-plus a:hover .text {
+    border-color: #dd4b39;
+    color: #dd4b39
+}
+
+.article-guided-adventure .send-off .share li.twitter a:hover .icon,.article-guided-adventure .send-off .share li.twitter a:hover .text {
+    border-color: #00aced;
+    color: #00aced
+}
+
+.article-guided-adventure .send-off .share a {
+    display: table-row;
+    line-height: 50px
+}
+
+.article-guided-adventure .send-off .share .icon {
+    border: 1px solid #fff;
+    border-radius: 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 89px
+}
+
+.article-guided-adventure .send-off .share .text {
+    border: 1px solid #fff;
+    border-width: 1px 1px 1px 0;
+    display: table-cell;
+    font-size: 11px;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: top
+}
+
+.article-guided-adventure .send-off .subscribe {
+    border: 1px solid #fff;
+    display: table-cell;
+    padding: 41px 20px;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    background: 0 0;
+    left: 0;
+    transform: none;
+    bottom: 0
+}
+
+.article-guided-adventure .send-off .subscribe:hover,.article-guided-adventure .send-off .subscribe:hover .icon {
+    border-color: #e4853d;
+    color: #e4853d
+}
+
+.article-guided-adventure .send-off .subscribe .icon {
+    border: 1px solid #fff;
+    border-radius: 300px;
+    display: inline-block;
+    font-size: 34px;
+    line-height: 65px;
+    margin-bottom: 16px;
+    padding: 0 15px
+}
+
+.article-guided-adventure .send-off .subscribe .text {
+    display: block;
+    line-height: 16px;
+    font-size: 11px
+}
+
+@media (max-width: 1024px) {
+    .background,.splash header {
+        position:absolute!important
+    }
+
+    .splash header {
+        opacity: 1!important
+    }
+
+    .column {
+        float: none!important;
+        margin-bottom: 0;
+        max-width: none!important;
+        width: auto!important
+    }
+
+    .column .content {
+        margin-top: 0;
+        padding: 62px 41px 145px
+    }
+
+    .column .video-trigger {
+        margin: 0 auto;
+        max-width: 380px
+    }
+
+    .column img {
+        margin: 0 auto
+    }
+
+    video {
+        display: none!important
+    }
+
+    .video-trigger .trigger {
+        right: 50%
+    }
+
+    .video-trigger .trigger.left {
+        right: auto;
+        left: 23%
+    }
+
+    .video-trigger img {
+        margin-bottom: 20px
+    }
+
+    .article-exploring-nature .bumper,.article-guided-adventure .bumper,.article-home .bumper,.article-penobscot-perspective .bumper,.article-roots-of-stewardship .bumper,.article-untouched-by-time .bumper {
+        min-height: 0;
+        padding: 80px 70px 62px
+    }
+
+    .article-exploring-nature .bumper br,.article-guided-adventure .bumper br,.article-home .bumper br,.article-penobscot-perspective .bumper br,.article-roots-of-stewardship .bumper br,.article-untouched-by-time .bumper br,.article-untouched-by-time .image-cols .row:after,.article-untouched-by-time .image-cols .row:before {
+        display: none
+    }
+
+    .article-untouched-by-time .image-cols .big {
+        position: static!important;
+        width: 50%
+    }
+
+    .article-untouched-by-time .image-cols .column {
+        float: none!important;
+        position: static!important;
+        width: auto
+    }
+
+    .article-untouched-by-time .image-cols .image-cell {
+        float: left;
+        width: 50%
+    }
+
+    .article-untouched-by-time .image-cols .image-cell.last-odd {
+        width: 100%
+    }
+
+    .article-penobscot-perspective .holder {
+        height: auto!important
+    }
+
+    * html .article-penobscot-perspective .holder {
+        height: 1%;
+        overflow: visible
+    }
+
+    .article-penobscot-perspective .holder:after {
+        content: "";
+        display: block;
+        height: 0!important;
+        overflow: hidden;
+        position: static!important;
+        clear: both
+    }
+
+    .article-penobscot-perspective .image-grid {
+        position: relative!important
+    }
+
+    .article-exploring-nature .image-couples {
+        height: auto!important
+    }
+
+    * html .article-exploring-nature .image-couples {
+        height: 1%;
+        overflow: visible
+    }
+
+    .article-exploring-nature .image-couples:after {
+        content: "";
+        display: block;
+        height: 0!important;
+        overflow: hidden;
+        position: static!important;
+        clear: both
+    }
+
+    .article-exploring-nature .ascending,.article-guided-adventure .double-exposure .background,.article-guided-adventure .resources .background,.article-guided-adventure .split-splash .background.right,.article-roots-of-stewardship .image-cols .row:after,.article-roots-of-stewardship .image-cols .row:before {
+        display: none
+    }
+
+    .article-exploring-nature .image-couples .stage {
+        height: auto!important;
+        position: static!important
+    }
+
+    .article-exploring-nature .image-couples .col {
+        float: left;
+        position: static;
+        width: 50%
+    }
+
+    .article-exploring-nature .image-couples .col.right {
+        float: right
+    }
+
+    .article-roots-of-stewardship .image-cols .big {
+        position: static!important;
+        width: 50%
+    }
+
+    .article-roots-of-stewardship .image-cols .column {
+        float: none!important;
+        position: static!important;
+        width: auto
+    }
+
+    .article-roots-of-stewardship .image-cols .image-cell {
+        float: left;
+        width: 50%
+    }
+
+    .article-roots-of-stewardship .image-cols .image-cell.last-odd {
+        width: 100%
+    }
+
+    .article-guided-adventure .split-splash {
+        overflow: hidden
+    }
+
+    .article-guided-adventure .split-splash .background.left {
+        top: 0!important;
+        width: 100%
+    }
+
+    .article-guided-adventure .split-splash .inner {
+        padding-bottom: 0!important
+    }
+
+    .article-guided-adventure .double-exposure {
+        padding-top: 0!important
+    }
+
+    .article-guided-adventure .double-exposure .column {
+        margin-left: 0;
+        min-width: 0
+    }
+
+    .article-guided-adventure .quote {
+        margin: 0 auto;
+        max-width: 400px;
+        opacity: 1!important;
+        padding: 20px 41px 0;
+        position: static;
+        text-align: center;
+        width: auto
+    }
+
+    .article-guided-adventure .movie-title {
+        padding: 0!important
+    }
+
+    .article-guided-adventure .movie-title .background {
+        position: static
+    }
+
+    .article-guided-adventure .movie-title .content {
+        left: 0;
+        margin: 0!important;
+        opacity: 1!important;
+        padding: 160px 41px;
+        position: relative;
+        top: 0
+    }
+
+    .article-guided-adventure .movie-title .credits {
+        margin-bottom: 0;
+        max-width: 100%
+    }
+
+    .article-guided-adventure .resources {
+        height: auto!important
+    }
+
+    .article-guided-adventure .resources .slide {
+        height: auto!important;
+        left: 0!important;
+        position: relative;
+        top: 0!important;
+        width: 100%!important
+    }
+
+    .article-guided-adventure .resources .slide .slide-inner {
+        position: absolute;
+        top: 0!important
+    }
+
+    .article-guided-adventure .resources .slide .tooltip {
+        bottom: auto!important;
+        left: auto!important;
+        right: 0!important;
+        top: 0!important;
+        position: relative;
+        width: 100%!important
+    }
+
+    .article-guided-adventure .resources .slide .tooltip-inner {
+        background: rgba(0,0,0,.6);
+        border: 9px solid transparent;
+        box-shadow: inset 0 0 0 1px #fff;
+        color: #fff;
+        position: static
+    }
+}
+
+@media (max-width: 767px) {
+    .article-guided-adventure .movie-title .credits,.continue {
+        text-align:center
+    }
+
+    .continue,.continue:active,.continue:focus,.continue:hover {
+        border-width: 1px
+    }
+
+    #hamburger {
+        max-width: none
+    }
+
+    .share-wrapper .share {
+        margin-top: 0!important
+    }
+
+    #hamburger-button {
+        -moz-transition: all .2s linear;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear
+    }
+
+    .scrolled #hamburger-button {
+        left: 0;
+        top: 0
+    }
+
+    #global-maine-icon {
+        height: auto;
+        right: 40px;
+        top: 40px;
+        width: 20px
+    }
+
+    .column {
+        float: none!important;
+        margin-bottom: 0;
+        max-width: none!important;
+        width: auto!important
+    }
+
+    .large-image {
+        background-attachment: scroll;
+        background-position: top center;
+        background-size: 100%;
+        -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+        min-height: 0!important;
+        padding: 0!important
+    }
+
+    .large-image .background {
+        min-height: 0!important;
+        position: static!important
+    }
+
+    .large-image .background img {
+        height: auto!important;
+        position: static;
+        width: 100%!important
+    }
+
+    .positioned {
+        position: relative!important;
+        top: 0!important
+    }
+
+    .background {
+        background-size: 100%;
+        position: absolute
+    }
+
+    .background video {
+        display: none
+    }
+
+    .continue {
+        display: block;
+        margin-left: 0!important;
+        padding: 30px;
+        transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0)
+    }
+
+    .continue:after,.continue:before {
+        display: none
+    }
+
+    .share {
+        margin: 20px auto 0!important
+    }
+
+    .share a {
+        display: inline-block
+    }
+
+    #footer .js-content {
+        left: 20px;
+        margin: 0!important;
+        right: 20px;
+        top: 20px
+    }
+
+    .article-exploring-nature .splash,.article-guided-adventure .splash,.article-home .splash,.article-penobscot-perspective .splash,.article-roots-of-stewardship .splash,.article-untouched-by-time .splash {
+        background-attachment: scroll;
+        background-position: bottom center
+    }
+
+    .article-exploring-nature .splash .background,.article-guided-adventure .splash .background,.article-home .splash .background,.article-penobscot-perspective .splash .background,.article-roots-of-stewardship .splash .background,.article-untouched-by-time .splash .background {
+        background-size: cover
+    }
+
+    .article-exploring-nature .splash header,.article-guided-adventure .splash header,.article-home .splash header,.article-penobscot-perspective .splash header,.article-roots-of-stewardship .splash header,.article-untouched-by-time .splash header {
+        opacity: 1!important;
+        position: absolute
+    }
+
+    .article-exploring-nature .splash header h1,.article-guided-adventure .splash header h1,.article-home .splash header h1,.article-penobscot-perspective .splash header h1,.article-roots-of-stewardship .splash header h1,.article-untouched-by-time .splash header h1 {
+        height: 140px
+    }
+
+    .article-exploring-nature .splash header h1:before,.article-guided-adventure .splash header h1:before,.article-home .splash header h1:before,.article-penobscot-perspective .splash header h1:before,.article-roots-of-stewardship .splash header h1:before,.article-untouched-by-time .splash header h1:before {
+        background-size: contain;
+        -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+        margin-left: -50px;
+        top: 0;
+        width: 100px
+    }
+
+    .article-exploring-nature .splash header h1:after,.article-guided-adventure .splash header h1:after,.article-home .splash header h1:after,.article-penobscot-perspective .splash header h1:after,.article-roots-of-stewardship .splash header h1:after,.article-untouched-by-time .splash header h1:after {
+        background-size: contain;
+        -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+        bottom: 0;
+        margin-left: -50px;
+        width: 100px
+    }
+
+    .article-exploring-nature .splash .issue-badge,.article-guided-adventure .splash .issue-badge,.article-home .splash .issue-badge,.article-penobscot-perspective .splash .issue-badge,.article-roots-of-stewardship .splash .issue-badge,.article-untouched-by-time .splash .issue-badge {
+        display: none
+    }
+
+    .article-exploring-nature .splash .arrow,.article-guided-adventure .splash .arrow,.article-home .splash .arrow,.article-penobscot-perspective .splash .arrow,.article-roots-of-stewardship .splash .arrow,.article-untouched-by-time .splash .arrow {
+        bottom: 30px
+    }
+
+    .article-exploring-nature .splash .maine-thing-logo,.article-guided-adventure .splash .maine-thing-logo,.article-home .splash .maine-thing-logo,.article-penobscot-perspective .splash .maine-thing-logo,.article-roots-of-stewardship .splash .maine-thing-logo,.article-untouched-by-time .splash .maine-thing-logo {
+        top: 30px;
+        margin-left: -50px;
+        width: 100px
+    }
+
+    .article-exploring-nature .bottom .row .chapter,.article-guided-adventure .bottom .row .chapter,.article-home .bottom .row .chapter,.article-penobscot-perspective .bottom .row .chapter,.article-roots-of-stewardship .bottom .row .chapter,.article-untouched-by-time .bottom .row .chapter {
+        display: block
+    }
+
+    .article-exploring-nature .bottom .row .chapter .inner,.article-guided-adventure .bottom .row .chapter .inner,.article-home .bottom .row .chapter .inner,.article-penobscot-perspective .bottom .row .chapter .inner,.article-roots-of-stewardship .bottom .row .chapter .inner,.article-untouched-by-time .bottom .row .chapter .inner {
+        box-shadow: none;
+        height: auto!important
+    }
+
+    .article-exploring-nature .bottom .row .chapter .inner .content,.article-guided-adventure .bottom .row .chapter .inner .content,.article-home .bottom .row .chapter .inner .content,.article-penobscot-perspective .bottom .row .chapter .inner .content,.article-roots-of-stewardship .bottom .row .chapter .inner .content,.article-untouched-by-time .bottom .row .chapter .inner .content {
+        float: right;
+        margin: 0!important;
+        padding: 0 0 0 40px;
+        position: static
+    }
+
+    .article-exploring-nature .bottom .row .chapter:hover .inner,.article-guided-adventure .bottom .row .chapter:hover .inner,.article-home .bottom .row .chapter:hover .inner,.article-penobscot-perspective .bottom .row .chapter:hover .inner,.article-roots-of-stewardship .bottom .row .chapter:hover .inner,.article-untouched-by-time .bottom .row .chapter:hover .inner {
+        background: 0 0
+    }
+
+    .article-exploring-nature .bottom .row .chapter:hover .background,.article-guided-adventure .bottom .row .chapter:hover .background,.article-home .bottom .row .chapter:hover .background,.article-penobscot-perspective .bottom .row .chapter:hover .background,.article-roots-of-stewardship .bottom .row .chapter:hover .background,.article-untouched-by-time .bottom .row .chapter:hover .background {
+        transform: scale(1,1);
+        -ms-transform: scale(1,1);
+        -moz-transform: scale(1,1);
+        -webkit-transform: scale(1,1);
+        -o-transform: scale(1,1);
+        -webkit-filter: blur(0);
+        filter: blur(0)
+    }
+
+    .article-exploring-nature .bottom .row .chapter .chapter-number,.article-guided-adventure .bottom .row .chapter .chapter-number,.article-home .bottom .row .chapter .chapter-number,.article-penobscot-perspective .bottom .row .chapter .chapter-number,.article-roots-of-stewardship .bottom .row .chapter .chapter-number,.article-untouched-by-time .bottom .row .chapter .chapter-number {
+        bottom: 50%;
+        float: left;
+        margin-bottom: -13px;
+        left: 20px
+    }
+
+    .article-exploring-nature .bottom .row .chapter .background,.article-guided-adventure .bottom .row .chapter .background,.article-home .bottom .row .chapter .background,.article-penobscot-perspective .bottom .row .chapter .background,.article-roots-of-stewardship .bottom .row .chapter .background,.article-untouched-by-time .bottom .row .chapter .background {
+        opacity: .3
+    }
+
+    .article-exploring-nature .bottom .row .chapter .content,.article-guided-adventure .bottom .row .chapter .content,.article-home .bottom .row .chapter .content,.article-penobscot-perspective .bottom .row .chapter .content,.article-roots-of-stewardship .bottom .row .chapter .content,.article-untouched-by-time .bottom .row .chapter .content {
+        float: none!important;
+        padding: 20px 0!important;
+        width: auto
+    }
+
+    .article-exploring-nature .bottom .row .chapter .content p,.article-guided-adventure .bottom .row .chapter .content p,.article-home .bottom .row .chapter .content p,.article-penobscot-perspective .bottom .row .chapter .content p,.article-roots-of-stewardship .bottom .row .chapter .content p,.article-untouched-by-time .bottom .row .chapter .content p {
+        height: 100px!important;
+        margin: 0 auto;
+        width: 180px!important
+    }
+
+    .article-exploring-nature .bottom .row .chapter.chapter-0 .content,.article-guided-adventure .bottom .row .chapter.chapter-0 .content,.article-home .bottom .row .chapter.chapter-0 .content,.article-penobscot-perspective .bottom .row .chapter.chapter-0 .content,.article-roots-of-stewardship .bottom .row .chapter.chapter-0 .content,.article-untouched-by-time .bottom .row .chapter.chapter-0 .content {
+        float: none;
+        margin: 0 auto!important;
+        padding: 0 40px
+    }
+
+    .article-exploring-nature .bottom .row .chapter.chapter-1 p:after,.article-exploring-nature .bottom .row .chapter.chapter-1 p:before,.article-guided-adventure .bottom .row .chapter.chapter-1 p:after,.article-guided-adventure .bottom .row .chapter.chapter-1 p:before,.article-home .bottom .row .chapter.chapter-1 p:after,.article-home .bottom .row .chapter.chapter-1 p:before,.article-penobscot-perspective .bottom .row .chapter.chapter-1 p:after,.article-penobscot-perspective .bottom .row .chapter.chapter-1 p:before,.article-roots-of-stewardship .bottom .row .chapter.chapter-1 p:after,.article-roots-of-stewardship .bottom .row .chapter.chapter-1 p:before,.article-untouched-by-time .bottom .row .chapter.chapter-1 p:after,.article-untouched-by-time .bottom .row .chapter.chapter-1 p:before {
+        background-size: contain;
+        -ms-behavior: url(/articles/thoreau/css/backgroundsize.min.htc);
+        margin-left: -50px;
+        width: 100px
+    }
+
+    .article-untouched-by-time .image-cols .column {
+        float: none;
+        width: 100%
+    }
+
+    .article-untouched-by-time .image-cols .big {
+        position: static!important;
+        width: 100%
+    }
+
+    .article-untouched-by-time .image-cols .image-cell {
+        float: none;
+        width: 100%
+    }
+
+    .article-penobscot-perspective .holder {
+        display: none
+    }
+
+    .article-exploring-nature .image-couples .stage {
+        height: auto!important;
+        position: static!important
+    }
+
+    .article-exploring-nature .image-couples .col {
+        float: none;
+        position: static;
+        width: 100%
+    }
+
+    .article-roots-of-stewardship .image-cols .column {
+        float: none;
+        width: 100%
+    }
+
+    .article-roots-of-stewardship .image-cols .big {
+        position: static!important;
+        width: 100%
+    }
+
+    .article-roots-of-stewardship .image-cols .image-cell {
+        float: none;
+        width: 100%
+    }
+
+    .article-guided-adventure .movie-title .background {
+        position: absolute!important
+    }
+
+    .article-guided-adventure .movie-title .content {
+        left: 0;
+        margin: 0!important;
+        padding: 20px;
+        position: relative;
+        top: 0
+    }
+
+    .article-guided-adventure .movie-title .content blockquote {
+        line-height: 28px
+    }
+
+    .article-guided-adventure .movie-title .credits ul {
+        margin-left: 0
+    }
+
+    .article-guided-adventure .movie-title .credits li {
+        display: block;
+        margin-bottom: 10px
+    }
+
+    .article-guided-adventure .movie-title .credits .col1,.article-guided-adventure .movie-title .credits .col2 {
+        float: none;
+        padding: 40px;
+        width: 100%
+    }
+
+    .article-guided-adventure .send-off-wrapper {
+        padding-top: 30px!important
+    }
+
+    .article-guided-adventure .send-off-wrapper .background,.article-guided-adventure .send-off-wrapper:after {
+        display: none
+    }
+
+    .article-guided-adventure .send-off {
+        margin: 0!important;
+        position: static;
+        width: auto
+    }
+
+    .article-guided-adventure .send-off .left {
+        float: none;
+        margin: 0 auto;
+        width: auto
+    }
+
+    .article-guided-adventure .send-off .right {
+        display: block;
+        float: none;
+        width: auto
+    }
+
+    .article-guided-adventure .send-off .right .share {
+        display: block;
+        padding: 9px;
+        width: auto
+    }
+
+    .article-guided-adventure .send-off .right .share li {
+        float: none;
+        margin-bottom: 9px
+    }
+
+    .article-guided-adventure .send-off .right .subscribe {
+        display: block;
+        margin: 0 9px
+    }
+
+    .signup-wrapper {
+        height: auto!important;
+        width: auto!important
+    }
+
+    .signup-wrapper .left,.signup-wrapper .right {
+        float: none;
+        width: 100%
+    }
+
+    .signup-wrapper .left .logo {
+        margin: 0 auto!important;
+        padding: 40px 20px;
+        position: static
+    }
+
+    .signup-wrapper .right p {
+        margin: 0 auto;
+        padding: 20px
+    }
+
+    .signup-wrapper .right form {
+        padding-bottom: 40px
+    }
+
+    .signup-wrapper .thank-you {
+        margin-top: 0;
+        padding: 40px
+    }
+}

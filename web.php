@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<head>
   <?php include 'wincludes/header.php'; ?>
+</head>
+
   <body>
     <?php
     include 'wincludes/sidenav.php';

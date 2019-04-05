@@ -2,7 +2,13 @@ $( document ).ready(function() {
   console.log($(".ths").width());
   console.log($(".thf").width());
   console.log($(window).width());
+
        $('.headbox').height($(window).height());
+
+       console.log("width of roww -");
+
+       console.log($(".roww").width());
+
        $('.container').height($(window).height());
         console.log( "document loaded ..\n Hello...." );
       //  $( "h1:first" ).hide();
@@ -26,6 +32,14 @@ $( document ).ready(function() {
           $("div:nth-child(6)").removeClass("alertd");
           //$("div").attr("alertd", "alertdf" );
         });
+        $(window).bind("resize", function () {
+    if ($(".roww").width() < 727) {
+        console.log($(".roww").width())
+        $('div').removeClass('col-xs-4');
+    } else {
+        $('.gen').addClass('col-xs-4');
+    }
+}).trigger('resize');
     });
 function openNav() {
   document.getElementById('mysidenav').style.width = '100%';

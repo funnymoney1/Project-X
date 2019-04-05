@@ -1,0 +1,116 @@
+body{
+  background-color: #ddd;
+  margin: 0px;
+}
+/*nav{
+  background-color: black;
+  position: fixed;
+  width: 100%;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  padding: 50px;
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+  color: grey;
+}
+*/
+@media screen AND (max-width:600px){
+/*  nav{
+    background-color: lightgreen;
+    width: 100vw;
+  }*/
+}
+#sp{
+  //padding: 8px 8px 8px 32px;
+  position: fixed;
+  left: 3%;
+  text-decoration: none;
+  font-size: 36px;
+  cursor: pointer;
+  //color: #818181;
+  color: antiquewhite;
+  display: block;
+  z-index: 2;
+}
+.sidenav{
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  //background-color: pink;
+  //background-color: skyblue;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.2s;
+}
+.sidenav a:hover{
+  color: #9999ff;
+}
+.sidenav .closebtn{
+  position: absolute;
+  top: 0;
+  //right: 25px;
+  left: 10px;
+  font-size: 36px;
+  //margin-left: 80px;
+}
+/*.closebtn : hover{
+  color: pink;
+}*/
+#main0{
+  transition: margin-left .5s;
+  padding: 0px;
+}
+.cir{
+  //background-color: rgba(30,50,100,0.7);
+  //background-color: rgba(0, 0, 0, 0.1);
+  margin: auto;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.5);
+}
+.cir a{
+  margin: auto;
+  position: relative;
+  display: block;
+}
+.cirf{
+  position: relative;
+  margin: auto;
+}
+.cirf a{
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+}
+#sec{
+  //text-decoration: none;
+  color: black;
+  right: 65px;
+  top: 20px;
+}
+#th{
+  //text-decoration: none;
+  color: black;
+  top: 40px;
+}

@@ -7,34 +7,42 @@
     </div>
     <span onclick="openNav()" id="sp">&#187;</span>
   </header>
-  <div class="firstd">
-    <p>You Can Find Some Notes and pdf's here which is related to your course</p>
-    <span class="fspn">Please select your stream - </span>
-    <div class="sld container-fluid">
-        <div class="slf col-xs-6">
-          <a href="#">
-            <div class="slff">
-              School
+
+  <div class="lastd">
+    <div class="roww">
+      <a href="#">
+        <div class="gen fldiv col-xs-4">
+          <div class="background"></div>
+          <div class="inner">
+            <div class="contentd">
+              <!--<img src="css/stanislav-kondratiev-77922-unsplash.jpg" alt="grs">-->
+              <p>Exploring Nature, Finding Ourselves </p>
+              <!--<img src="css/hdr-exploring-nature.png" alt="">-->
             </div>
-          </a>
+          </div>
         </div>
-        <div class="sls col-xs-6">
-          <a href="#">
-            <div class="slfd">
-              COLLEGE
+      </a>
+      <a href="#">
+        <div class="gen sldiv col-xs-4">
+          <div class="background"></div>
+          <div class="inner">
+            <div class="contentd">
+              <p>A View Untouched by Time</p>
             </div>
-          </a>
+          </div>
         </div>
+      </a>
+      <a href="#">
+        <div class="gen tldiv col-xs-4">
+          <div class="background"></div>
+          <div class="inner">
+            <div class="contentd">
+              <p>The Penobscot Perspective – Then and Now</p>
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
-    <!--<div class="fld container">
-      <div class="flf col-xs-4"><a href="#" class="fdlink">Bsc</a></div>
-      <div class="fls col-xs-4"><a href="pdfs.php" class="fdlink">Bca</a></div>
-      <div class="flt col-xs-4"><a href="middle.php" class="fdlink">Bba</a></div>
-    </div>
-    <div class="alertd">
-      <a href="#">cs</a>
-      <a href="#">Mt</a>
-    </div>-->
   </div>
   <div class="secondd">
     Contact Us
@@ -43,3 +51,9 @@
     </div>
   </div>
 </div>
+
+
+<!--if ($(".roww").width()<=767) {
+  $("div").removeClass("col-xs-4");
+  console.log("done");
+}-->
