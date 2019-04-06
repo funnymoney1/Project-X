@@ -163,13 +163,13 @@ nav ul li a:hover{
   line-height: 3;
 }
 .slf,.sls{
-  //background: pink;
+  background: pink;
   position: relative;
   top: 75px;
   height: 250px;
 }
 .sls{
-  //background: lightgreen;
+  background: lightgreen;
 }
 .slff,.slfd{
   position: relative;
@@ -336,15 +336,14 @@ nav ul li a:hover{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;*/
-
-display: table-cell;
-overflow: hidden;
-padding: 17px;
-position: relative;
-text-decoration: none;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+  display: table-cell;
+  overflow: hidden;
+  padding: 17px;
+  position: relative;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .gen:hover .background {
@@ -407,6 +406,7 @@ box-sizing: border-box;
 
 .contentd{
   //background-color: pink;
+  //background-image: url("css/drawing1.svg");
   background-image: url("css/hdr-exploring-nature.png");
   background-position: center;
   background-size: contain;

@@ -28,22 +28,41 @@ body{
   color: black;
   left: 20px;
 }
+
 .sld{
+  display: table;
+  width: 100%;
   position: relative;
   //margin: 5% 0 5% 0;
   height: 400px;
   line-height: 3;
 }
-.slf,.sls{
-  //background: pink;
-  position: relative;
+
+.sgen{
+  /*position: relative;
   top: 75px;
-  height: 250px;
+  height: 250px;*/
+  display: table-cell;
+  overflow: hidden;
+  padding: 17px;
+  position: relative;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.slf{
+  background: pink;
 }
 .sls{
-  //background: lightgreen;
+  background: lightgreen;
 }
-.slff,.slfd{
+.slt{
+  background: lightslategrey;
+}
+
+.slgen{
   position: relative;
   width: 200px;
   height: 150px;
@@ -52,7 +71,6 @@ body{
   font-size: 30px;
   margin: auto;
   border-radius: 3px;
-  background-image: url("schoolpencils.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,27 +78,28 @@ body{
   //box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.3);
   box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
   transition: box-shadow .5s;
-  /*transition: opacity 15ms linear,background-color 15ms linear;
-    transition-property: opacity, background-color;
-    transition-duration: 15ms, 15ms;
-    transition-timing-function: linear, linear;
-    transition-delay: 0s, 0s;*/
+}
+.slgen:hover{
+  filter: brightness(60%);
+}
+.slff{
+  background-image: url("schoolpencils.jpg");
+}
+.slffo{
+  background-image: url("schoolpencils.jpg");
 }
 .slfd{
   background-image: url("stanislav-kondratiev-1158575-unsplash.jpg");
   //background-color: rgba(255, 255, 255, 0.4);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.9);
 }
-.slff:hover,.slfd:hover{
+.slgen:hover{
   //box-shadow: 0px 0px 1px 2px rgba(64,64,64,0.4);
   box-shadow: 0 2px 10px -1px rgba(0,0,0,.2), 0 1px 10px 0 rgba(0,0,0,.14), 0 1px 13px 0 rgba(0,0,0,.12);
   //background-color: #000;
   //opacity: 0.1;
 }
-.fld{
+
+/*.fld{
   position: relative;
   top: 100px;
 }
@@ -95,23 +114,23 @@ body{
   transition: transform 1s;
   transition-timing-function: ease-out;
 }
-/*.flt:hover{
+.flt:hover{
   background: linear-gradient(90deg ,grey ,white );
-}*/
-/*.fls{
+}
+.fls{
   transition: transform 1s;
   transition-timing-function: linear;
-}*/
+}
 .fls:hover, .flf:hover, .flt:hover{
   background: linear-gradient(90deg ,grey , white );
   transform: translate(-15px,0px);
 }
-/*.alertd{
+.alertd{
   text-decoration: none;
   color: pink;
   font-size: 30px;
   //display: none;
-}*/
+}
 .alertdf{
   //font-size: 50px;
   position: relative;
@@ -129,7 +148,7 @@ body{
   //background-color: pink;
   color:grey;
   text-align: center;
-}
+}*/
 .logindiv{
   position: relative;
   top: 100%;
@@ -159,23 +178,30 @@ body{
   margin: auto;
   padding: 0px 15px 0px 15px;
 }
-@media screen and (max-width:466px){
+
+@media screen and (max-width:670px){
 .logindiv{
   width: 100%;
   height: 50px;
   margin: auto;
 }
-.slf,.sls{
-  //min-width: 60%;
+.sgen{
   min-width: 100%;
-  //margin: 0 20% 0 20%;
   top: 0px;
+  padding: 10px;
+  height: auto;
+  //margin: 0 20% 0 20%;
 }
 .sls{
   //background-color: lightslategrey;
 }
 }
-
+@media (max-width: 900px){
+  .sgen{
+    display: block;
+    width: 100%;
+  }
+}
 .lnav{
   //position: relative;
   text-align: right;

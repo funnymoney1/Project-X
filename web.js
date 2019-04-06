@@ -33,13 +33,12 @@ $( document ).ready(function() {
           //$("div").attr("alertd", "alertdf" );
         });
         $(window).bind("resize", function () {
-    if ($(".roww").width() < 727) {
-        console.log($(".roww").width())
-        $('div').removeClass('col-xs-4');
-    } else {
-        $('.gen').addClass('col-xs-4');
-    }
-}).trigger('resize');
+          if ($(".roww").width() < 727) {
+              $('div').removeClass('col-xs-4');
+          } else {
+              $('.gen').addClass('col-xs-4');
+          }
+        }).trigger('resize');
     });
 function openNav() {
   document.getElementById('mysidenav').style.width = '100%';
