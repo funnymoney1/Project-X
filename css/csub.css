@@ -1,7 +1,7 @@
 .lastd{
   position: relative;
-  background-color: grey;
-  //display: block;
+  //background-color: grey;
+  display: block;
 }
 .roww{
   display: table;
@@ -20,7 +20,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;*/
-  display: table-cell;
+
+  //display: table-cell;
   overflow: hidden;
   padding: 17px;
   position: relative;
@@ -31,7 +32,7 @@
 }
 
 .gen:hover .background {
-  //opacity: .6;
+  //opacity: .9;
   filter: brightness(60%);
   transform: scale(1.1,1.1);
   -ms-transform: scale(1.1,1.1);
@@ -127,25 +128,27 @@
 }*/
 @media (max-width: 767px){
   .gen{
-    display: block;
+    //display: block;
   }
   .fldiv,.sldiv,.tldiv{
-    display: block;
-    width: 100%;
+    //display: block;
+    //width: 100%;
   }
   .inner{
-    box-shadow: none;
+    //box-shadow: none;
     height: auto!important;
+    width: 100%;
   }
   .contentd{
     margin: 0!important;
     position: static;
     float: none!important;
     padding: 20px 0!important;
-    width: auto;
+    //width: auto;
+    width: 100%;
   }
   .contentd p{
-    height: 100px!important;
+    //height: 100px!important;
     margin: 0 auto;
     width: 180px!important;
   }

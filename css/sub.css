@@ -2,7 +2,7 @@ body{
   //background-color: steelblue;
 }
 .firstd{
-  height: 657px;
+  //height: 657px;
   position: relative;
   //background-color: steelblue;
   box-shadow: 0px 1px 30px 10px black;
@@ -30,19 +30,20 @@ body{
 }
 
 .sld{
-  display: table;
+  /*display: table;
   width: 100%;
   position: relative;
   //margin: 5% 0 5% 0;
+  line-height: 3;*/
   height: 400px;
-  line-height: 3;
+  background-color: ;
 }
 
 .sgen{
   /*position: relative;
   top: 75px;
-  height: 250px;*/
-  display: table-cell;
+  height: 250px;
+  display: table-cell;*/
   overflow: hidden;
   padding: 17px;
   position: relative;
@@ -50,9 +51,65 @@ body{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+  //background-color: antiquewhite;
+  background: linear-gradient(90deg ,steelblue ,white);
 }
+.floatingdiv{
+  background: linear-gradient(45deg ,steelblue,white);
+  position: relative;
+  overflow: hidden;
+  top: -22%;
+  padding: 4px;
+  border-radius: 2px;
+  transform: translateY(5em);
+  //z-index: -1;
+  //transition: all 0.3s ease-in-out;
+  //opacity: 0;
 
-.slf{
+}
+.floa{
+  position: relative;
+  top: -22%;
+  padding: 4px;
+  border-radius: 2px;
+  transform: translateY(5em);
+  background: linear-gradient(45deg ,steelblue,pink);
+}
+.floa:hover{
+  background: linear-gradient(30deg,steelblue,white);
+}
+@supports (-ms-ime-align:auto) {
+  .floa{
+    display: none;
+  }
+}
+.slgen a{
+  position: relative;
+  display: contents;
+  //z-index: -1;
+}
+.back{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 0;
+}
+.floatingdiv:hover{
+  //transform: scale(1.1,1.1);
+  //transition: all 0.1s ;
+}
+.isshow{
+  opacity: 1;
+  transform: translateY(0em);
+}
+@supports (-ms-ime-align:auto) {
+  .isshow{
+    display: block;
+  }
+}
+/*.slf{
   background: pink;
 }
 .sls{
@@ -61,16 +118,19 @@ body{
 .slt{
   background: lightslategrey;
 }
-
+*/
 .slgen{
   position: relative;
+  //display: block;
   width: 200px;
   height: 150px;
-  top: 10%;
+  //top: 10px;
   text-align: center;
+  justify-content: center;
   font-size: 30px;
   margin: auto;
   border-radius: 3px;
+  overflow: hidden;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,7 +140,7 @@ body{
   transition: box-shadow .5s;
 }
 .slgen:hover{
-  filter: brightness(60%);
+  //filter: brightness(90%);
 }
 .slff{
   background-image: url("schoolpencils.jpg");
@@ -186,11 +246,12 @@ body{
   margin: auto;
 }
 .sgen{
-  min-width: 100%;
+  /*min-width: 100%;
   top: 0px;
   padding: 10px;
   height: auto;
   //margin: 0 20% 0 20%;
+*/
 }
 .sls{
   //background-color: lightslategrey;
@@ -198,9 +259,12 @@ body{
 }
 @media (max-width: 900px){
   .sgen{
+    /*
     display: block;
     width: 100%;
+    */
   }
+
 }
 .lnav{
   //position: relative;
@@ -210,4 +274,8 @@ body{
   //-webkit-filter: blur(0.9px);
   background: rgba(255,255,255,0.45);
   box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.row{
+  margin: 0px;
 }

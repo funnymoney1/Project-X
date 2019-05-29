@@ -10,7 +10,6 @@ if (isset($_SESSION['user_id'])) {
 } else {
   echo 'Not Logged In';
 }
-
  ?>
  <br>
  <br>

@@ -6,6 +6,7 @@
 
   <body>
     <?php
+    include 'lgn.php';
     include 'wincludes/sidenav.php';
     include 'wincludes/main.php';
     ?>

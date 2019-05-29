@@ -1,0 +1,39 @@
+body{
+background-image: url(css/fox_stone_fire_paper_figures_9338_1920x1080.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+div{
+  color:black;
+  font:500 24px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  margin:10%;
+}
+
+#linksid a{text-decoration:none;color:white;
+/*margin-top:40px;
+padding-bottom:80px;*/
+font:500 24px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+#linksid a{
+padding-top:24px;
+padding-bottom:10px;
+}
+
+#linksid a:hover{
+opacity:0.5;
+}
+.field{
+  margin:0 auto;
+  border: 3px solid #3366ff;
+  border-radius: 4px;
+  width:500px;
+}
+
+#id2{
+  border: 2px solid grey;
+  background-color:;
+}

@@ -10,24 +10,24 @@
 
   <div class="lastd">
     <div class="roww">
-      <a href="#">
+      <a href="sub.php">
         <div class="gen fldiv col-xs-4">
           <div class="background"></div>
           <div class="inner">
             <div class="contentd">
               <!--<img src="css/stanislav-kondratiev-77922-unsplash.jpg" alt="grs">-->
-              <p>Exploring Nature, Finding Ourselves </p>
+              <p> Exploring Nature, Finding Ourselves </p>
               <!--<img src="css/hdr-exploring-nature.png" alt="">-->
             </div>
           </div>
         </div>
       </a>
-      <a href="#">
+      <a href="csub.php">
         <div class="gen sldiv col-xs-4">
           <div class="background"></div>
           <div class="inner">
             <div class="contentd">
-              <p>A View Untouched by Time</p>
+              <p> A View Untouched by Time </p>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@
   <div class="secondd">
     Contact Us
     <div class="logindiv">
-      Want To Login ? <span id="yes"><a href="#">YES</a></span> <span id="No"><a href="#">No</a></span>
+      Want To Login ?  <span onclick="openbNav()" id="yes">YES</span>
     </div>
   </div>
 </div>
@@ -56,4 +56,6 @@
 <!--if ($(".roww").width()<=767) {
   $("div").removeClass("col-xs-4");
   console.log("done");
+<span onclick="openbNav()" id="yes" > YES </span>
+  <a href="#">
 }-->

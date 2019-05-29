@@ -1,6 +1,4 @@
 $( document ).ready(function() {
-  //console.log($(".ths").width());
-  //console.log($(".thf").width());
   console.log($(window).width());
        $('.container').height($(window).height());
         console.log( "document loaded ..\n Hello...." );

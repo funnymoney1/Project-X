@@ -46,12 +46,13 @@ function user_active($username)
    $query = mysqli_query($mysql,$db);
    $row = mysqli_fetch_array($query);
    $userid = $row['user_id'];
-   return $userid;
+   $r_user_name = $row['username'];
+   return $r_user_name;
  }
 
  function login($username,$password)
  {
-   $user_id = user_id_from_username($username);
+   $user_name = user_id_from_username($username);
    $username = sanitize($username);
    $password = md5($password);
    $mysql = mysqli_connect('localhost','root');
@@ -61,7 +62,7 @@ function user_active($username)
    $rows = mysqli_num_rows($query);
    //$re = mysqli_result($query,0);
    if($rows == 1)
-   {return $user_id;}
+   {return $user_name;}
    else
    {return false;}
    //return (mysqli_result(mysqli_query("select count(user_id) from users where username = '$username' and password = $password"),0)==1) ? $user_id : false;

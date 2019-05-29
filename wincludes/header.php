@@ -4,5 +4,6 @@
   <script src="jquery-2.1.3.min.js" charset="utf-8"></script>
   <link rel="stylesheet" href="web.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/lgn.css">
   <title>Website</title>
   <script src="web.js" charset="utf-8"></script>
